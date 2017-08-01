@@ -21,7 +21,9 @@ For the Summer 2017 term for Microsoft's Data Science Capstone, students were ta
 - **[final_results2.png](/final_results2.png)**: A screenshot of the final leaderboard.
 
 ## Author
-[Hiram Foster](https://linkedin.com/in/hiramf)
+Hiram Foster
+
+[LinkedIn: @hiramf](https://linkedin.com/in/hiramf)
 
 I would love to hear from you concerning suggestions, questions, or career opportunities!
 
