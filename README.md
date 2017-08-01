@@ -23,8 +23,8 @@ For the Summer 2017 term for Microsoft's Data Science Capstone, students were ta
 ## Author
 Hiram Foster
 
-[LinkedIn: @hiramf](https://linkedin.com/in/hiramf)
-
 I would love to hear from you concerning suggestions, questions, or career opportunities!
+
+[LinkedIn: @hiramf](https://linkedin.com/in/hiramf)
 
 [hiramfoster.co@gmail.com](mailto:hiramfoster.co@gmail.com)
