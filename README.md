@@ -27,4 +27,4 @@ I would love to hear from you concerning suggestions, questions, or career oppor
 
 [LinkedIn: @hiramf](https://linkedin.com/in/hiramf)
 
-[hiramfoster.co@gmail.com](mailto:hiramfoster.co@gmail.com)
+[E-Mail](mailto:hiramfoster.co@gmail.com)
