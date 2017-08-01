@@ -282,34 +282,8 @@ rcParams['figure.figsize'] = 12, 50
 feat_imp = pd.Series(xgb.booster().get_fscore()).sort_values(ascending=True)
 feat_imp.plot(kind='barh', title='Feature Importances')
 plt.ylabel('Feature Importance Score')
-#%%
-import seaborn as sns
-rcParams['figure.figsize'] = 10,10
-from scipy.stats import pearsonr
-temp = pd.merge(X_train[['aid__students_with_any_loan']], #.apply(lambda x: np.log(x*100+1)),
-                y[['repayment_rate']], left_index=True, right_index=True).dropna()
-sns.regplot(temp.iloc[:,0], temp.iloc[:,1], scatter_kws={'alpha':0.1})
-pearsonr(temp.iloc[:,0], temp.iloc[:,1])
 
-#%%
-plt.clf()
-fig, axes = plt.subplots(1, 2, figsize=(15,6), sharey=True)
-ax = axes.ravel()
 
-sns.regplot(X_train['custom__log_academics__program_percentage_english'], y_train, 
-  scatter_kws={'alpha':0.1}, ax=ax[0])
-ax[0].set_ylim(0,110)
-ax[0].set_title('Percentage of Students that are Black', size=16)
-ax[0].set_xlabel('Percentage', size=14)
-ax[0].set_ylabel('Repayment Rate', size=14)
-
-sns.regplot(x['student__demographics_age_entry'], y['repayment_rate'], 
-  scatter_kws={'alpha':0.1}, ax=ax[1])
-ax[1].set_ylim(0,110)
-ax[1].set_xlim(18,35)
-ax[1].set_title('Average Age of Entry', size=16)
-ax[1].set_xlabel('Age', size=14)
-ax[1].set_ylabel('Repayment Rate', size=14)
 
 
 
